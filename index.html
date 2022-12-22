@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing In e Sing up</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <div class="form">
+            <div class="input-email"><label for="email" class="name">Email</label>
+                <input type="email" id="email" class="input" name="email" placeholder="Digite seu aqui">
+             
+            </div>
+            <div class="input-password">
+                <label for="password" class="name">Senha</label>
+                <input type="password" class="input" id="password" name="password" placeholder="Senha">
+              
+            </div>
+
+            <div class="buttons">
+                <button type="button" id="login" name="login" class="sing-in">Entrar</button>
+                <button type="button" onclick="toRegisterPage()" class="register">Registrar</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="src/js/fuctions.js"></script>
+    <script type="module" src="src/js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="form-div">
+        <h1>Registrar</h1>
+        <form action="" id="register">
+            <div class="form">
+                <div class="input-email"><label for="email" class="name">Email</label>
+                    <input type="email" id="email" class="input" name="email" placeholder="Digite seu aqui">
+
+                </div>
+                <div class="input-password">
+                    <label for="password" class="name">Senha</label>
+                    <input type="password" class="input" id="password" name="password" placeholder="Senha">
+
+                </div>
+                <div class="input-name">
+                    <label for="username" class="name">Nome</label>
+                    <input type="text" class="input" id="username" name="username" placeholder="Nome">
+
+                </div>
+                <div class="input-age">
+                    <label for="" class="name">idade</label>
+                    <input type="number" class="input" id="age" name="age" placeholder="Idade">
+
+                </div>
+                <div class="input-cpf">
+                    <label for="cpf" class="name">cpf</label>
+                    <input type="text" class="input" id="cpf" name="cpf" placeholder="cpf">
+
+                </div>
+                <div class="input-cep">
+                    <label for="cep" class="name">cep</label>
+                    <input type="text" class="input" id="cep" name="cep" required pattern="\d{5}-\d{3}"
+                        placeholder="cep">
+
+                </div>
+
+
+                <div class="buttons">
+                    <button type="button" id="singUp" name="singUp" class="register">Registrar</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="toHomeLogOff()" type="button" id="goHome" name="goHome"
+                        class="sing-in">Home</button>
+
+                </div>
+            </div>
+    </div>
+    </form>
+
+    <script src="../../js/fuctions.js"></script>
+    <script type="module" src="../../js/register.js"></script>
+</body>
+
+</html>
